@@ -1,0 +1,16 @@
+Ejercicio
+Aplicar lo visto hasta esta clase para modelar un sistema educativo donde:
+ Los profesores deben tener un listado de sus alumnos.
+Cada alumno debe saber su nota e informar si está aprobado o no (es decir si la nota es mayor que 7). 
+La escuela debe tener un registro de los alumnos y maestros, y debe poder matricular/contratar y expulsar/despedir a los mismos.
+
+
+
+Debemos crear la escuela que abarca a profesores y alumnos.
+Profesores y alumnos van a ser objetos de tipo arreglo porque son listados.
+Esta escuela debe tener importados los profesores y alumnos.
+Los atributos de las clases van a ser privados (Se accede con set y get).
+Crear el constructor
+Crear con set matricular/expulsar alumnos y contratar/despedir profesores.
+
+Con los get accedo a los atributos privados y retornan algo. En cambio los set no retornan
