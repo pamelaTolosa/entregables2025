@@ -16,7 +16,7 @@ export class ModuloWifi{
     public getFrecuenciaGhz(): number {
         return this.frecuenciaGhz;
     }
-    public setFrecuenciaGhz(value: number) {
-        this.frecuenciaGhz = value;
+    public setFrecuenciaGhz(pFrecuenciaGhz: number) {
+        this.frecuenciaGhz = pFrecuenciaGhz;
     }
 }
