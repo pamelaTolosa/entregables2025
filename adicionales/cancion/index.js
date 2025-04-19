@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var cancion_1 = require("./cancion");
+var titulo1 = "Me dedique a perderte";
+var titulo2 = "El me mintio";
+var titulo3 = "Tu falta de querer";
+var autor1 = "Alejandro Fernandez";
+var autor2 = "Amanda Miguel";
+var autor3 = "Mon Laferte";
+var cancion1 = new cancion_1.Cancion(titulo1, autor1);
+var cancion2 = new cancion_1.Cancion(titulo2, autor2);
+var cancion3 = new cancion_1.Cancion(titulo3, autor3);
+console.log("Cancion 1: " + cancion1.dameTitulo() + " de " + cancion1.dameAutor());
+console.log("Cancion 2: " + cancion2.dameTitulo() + " de " + cancion2.dameAutor());
+console.log("Cancion 3: " + cancion3.dameTitulo() + " de " + cancion3.dameAutor());
+cancion1.ponTitulo("Lose control");
+cancion1.ponAutor("Teddy Swims");
+console.log("Cancion 1: " + cancion1.dameTitulo() + " de " + cancion1.dameAutor());
